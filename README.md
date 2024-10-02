@@ -38,3 +38,10 @@ Data Standardization:
 
   Support Vector Machine (SVM)
 SVM is a powerful algorithm that finds a hyperplane in a high-dimensional space that best separates the classes. It performed  well.
+
+
+** Model Evaluation Metrics**
+For each model, we evaluated the performance using:
+
+Accuracy: The percentage of correctly classified instances.
+Precision, Recall, and F1-Score: These metrics are especially important in medical data, where misclassifying patients can have serious consequences. Precision measures the accuracy of positive predictions, recall measures how many actual positives were identified, and the F1-Score is the harmonic mean of precision and recall.
