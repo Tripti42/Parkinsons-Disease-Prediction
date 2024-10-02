@@ -11,6 +11,7 @@ Health Information: Medical conditions like hypertension, diabetes, cholesterol 
 Target Variable: The column Diagnosis was used as the target variable, where 0 represents "No Parkinson’s" and 1 represents "Parkinson’s diagnosis."
   
  **Data Preprocessing**
+ 
   Before applying machine learning models, "I preprocessed the data to ensure it was clean and suitable for analysis:
 
 Dropped Irrelevant Columns:
@@ -28,6 +29,7 @@ Data Standardization:
     predictions and avoids biases due to different scales.
     
  **Model Training and Evaluation**
+ 
  I have  applied  different machine learning models to classify patients as diagnosed or not diagnosed with Parkinson’s disease:
 
  Decision Tree
@@ -40,7 +42,8 @@ Data Standardization:
 SVM is a powerful algorithm that finds a hyperplane in a high-dimensional space that best separates the classes. It performed  well.
 
 
-** Model Evaluation Metrics**
+**Model Evaluation Metrics**
+
 For each model, we evaluated the performance using:
 
 Accuracy: The percentage of correctly classified instances.
