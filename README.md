@@ -48,3 +48,6 @@ For each model, we evaluated the performance using:
 
 Accuracy: The percentage of correctly classified instances.
 Precision, Recall, and F1-Score: These metrics are especially important in medical data, where misclassifying patients can have serious consequences. Precision measures the accuracy of positive predictions, recall measures how many actual positives were identified, and the F1-Score is the harmonic mean of precision and recall.
+
+
+In this project, I have implemented various machine learning models to predict Parkinson's disease based on a dataset of medical and demographic factors. After preprocessing the data, I have applied models like  Decision Tree, Random Forest,and  SVM. The Random Forest model provided the best results, with the highest accuracy and precision, making it a strong candidate for predicting Parkinson's disease in this dataset
