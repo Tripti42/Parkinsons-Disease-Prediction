@@ -60,37 +60,20 @@ SpeechProblems, SleepDisorders, Constipation: Non-motor symptoms (0 = Absent, 1 
 Diagnosis: Diagnosis of Parkinson's disease (0 = No, 1 = Yes).
 
 DoctorInCharge: Name of the doctor in charge (anonymized for confidentiality).
+
+
  
- **Data Preprocessing**
- 
-  Before applying machine learning models, "I preprocessed the data to ensure it was clean and suitable for analysis:
+The dataset is structured to allow an in-depth analysis of Parkinson’s disease, identifying both motor and non-motor symptoms, as well as evaluating the impact of various lifestyle factors.
 
-Dropped Irrelevant Columns:
-  I removed columns like PatientID (unique identifier) and DoctorInCharge (text field containing confidential placeholder data) because they do not contribute to the prediction of Parkinson's diagnosis.
-    
-Label Encoding for Categorical Variables:
-  Columns such as Gender, Ethnicity, and EducationLevel contained categorical values. I used Label Encoding to convert these into numeric representations, making them compatible with the machine learning 
-  algorithms.
-     
-Feature-Target Split:
- In this I have  split the dataset into features (X) and the target variable (y). The feature matrix (X) contains all variables except Diagnosis, and the target vector (y) contains the Diagnosis column.
+**Project Objectives**
 
-Data Standardization:
-    Since many of the features were on different scales (e.g., Age, Cholesterol levels, BMI), I have  used StandardScaler to standardize the dataset. This ensures that all features contribute equally to the model’s 
-    predictions and avoids biases due to different scales.
-    
- **Model Training and Evaluation**
- 
- I have  applied  different machine learning models to classify patients as diagnosed or not diagnosed with Parkinson’s disease:
+**Data Exploration**  Gain a detailed understanding of the dataset by exploring distributions, missing values, and basic statistics.
 
- Decision Tree
- Decision Trees are non-linear models that split data into subsets based on feature conditions. They are interpretable but can easily overfit.
+**Feature Correlation**  Determine the relationships between different clinical variables and the diagnosis of Parkinson’s disease.
 
- Random Forest
- Random Forest is an ensemble learning method that builds multiple decision trees and combines their outputs to improve prediction accuracy and reduce overfitting.
+**Predictive Modeling:**  Develop machine learning models to predict the presence of Parkinson’s disease based on patient features.
 
-  Support Vector Machine (SVM)
-SVM is a powerful algorithm that finds a hyperplane in a high-dimensional space that best separates the classes. It performed  well.
+**Visualization:**  Create visualizations to help communicate key findings effectively.
 
 
 **Model Evaluation Metrics**
