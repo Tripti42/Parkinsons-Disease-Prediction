@@ -12,39 +12,53 @@ The dataset includes 35 columns with 2,105 records. Below is a summary of the ke
 **Patient Demographics:**
 
 PatientID: Unique identifier for each patient.
+
 Age: Age of the patients (ranging from 50 to 89 years).
+
 Gender: Gender of the patients (0 = Female, 1 = Male).
+
 Ethnicity: Ethnicity classification (0 to 3, with 3 representing other/mixed ethnicity).
+
 EducationLevel: Education level (ranging from 0 to 3, where 3 is the highest level).
 
 **Lifestyle and Health Factors:**
 
 BMI: Body Mass Index of the patients.
+
 Smoking: Smoking status (0 = Non-smoker, 1 = Smoker).
+
 AlcoholConsumption: Self-reported alcohol consumption.
+
 PhysicalActivity: Frequency of physical activity.
+
 DietQuality: Quality of diet.
 
 **Clinical and Health History:
 **
 FamilyHistoryParkinsons: Family history of Parkinson’s disease (0 = No, 1 = Yes).
+
 TraumaticBrainInjury: History of traumatic brain injury (0 = No, 1 = Yes).
+
 Hypertension, Diabetes, Depression, Stroke: Presence of these conditions.
 
 **Clinical Assessment Scores:**
 
 UPDRS: Unified Parkinson’s Disease Rating Scale score.
+
 MoCA: Montreal Cognitive Assessment score.
+
 FunctionalAssessment: Measure of functional ability.
 
 **Symptom Severity Indicators:**
 
 Tremor, Rigidity, Bradykinesia, PosturalInstability: Indicators of motor symptoms (0 = Absent, 1 = Present).
+
 SpeechProblems, SleepDisorders, Constipation: Non-motor symptoms (0 = Absent, 1 = Present).
 
 **Diagnosis and Treatment:**
 
 Diagnosis: Diagnosis of Parkinson's disease (0 = No, 1 = Yes).
+
 DoctorInCharge: Name of the doctor in charge (anonymized for confidentiality).
  
  **Data Preprocessing**
