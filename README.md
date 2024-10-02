@@ -33,8 +33,8 @@ PhysicalActivity: Frequency of physical activity.
 
 DietQuality: Quality of diet.
 
-**Clinical and Health History:
-**
+**Clinical and Health History:**
+
 FamilyHistoryParkinsons: Family history of Parkinson’s disease (0 = No, 1 = Yes).
 
 TraumaticBrainInjury: History of traumatic brain injury (0 = No, 1 = Yes).
