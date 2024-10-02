@@ -8,10 +8,10 @@ In this project, we focused on Parkinson's Disease Prediction using a dataset th
 
  **Data Overview and Understanding**
 
-The dataset has 2,105 records with 35 features, including:
-Demographic Information: Age, Gender, Ethnicity, Education Level, BMI, lifestyle factors (Smoking, Alcohol Consumption, etc.
+The dataset has **2,105 records with 35 features**, including:
+Demographic Information: Age, Gender, Ethnicity, Education Level, BMI, lifestyle factors Smoking, Alcohol Consumption, etc.
   
-Health Information: Medical conditions like hypertension, diabetes, cholesterol levels, and symptoms related to Parkinson's disease (tremor, rigidity, speech problems, etc.
+Health Information: Medical conditions like hypertension, diabetes, cholesterol levels, and symptoms related to Parkinson's disease tremor, rigidity, speech problems, etc.
 
 Target Variable: The column Diagnosis was used as the target variable, where 0 represents "No Parkinson’s" and 1 represents "Parkinson’s diagnosis."
   
