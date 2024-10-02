@@ -1,30 +1,29 @@
 # Parkinson's-Disease-Prediction
-
 In this project, we focused on Parkinson's Disease Prediction using a dataset that contains various medical and demographic features for patients. The goal was to predict whether a patient is diagnosed with Parkinson's disease (binary classification: 0 for no, 1 for yes). Below is a detailed step-by-step explanation of what I have done:
 
  **Data Overview and Understanding**
 
-  The dataset has 2,105 records with 35 features, including:
-  Demographic Information: Age, Gender, Ethnicity, Education Level, BMI, lifestyle factors (Smoking, Alcohol Consumption, etc.
+The dataset has 2,105 records with 35 features, including:
+Demographic Information: Age, Gender, Ethnicity, Education Level, BMI, lifestyle factors (Smoking, Alcohol Consumption, etc.
   
-  Health Information: Medical conditions like hypertension, diabetes, cholesterol levels, and symptoms related to Parkinson's disease (tremor, rigidity, speech problems, etc.
+Health Information: Medical conditions like hypertension, diabetes, cholesterol levels, and symptoms related to Parkinson's disease (tremor, rigidity, speech problems, etc.
   
-  Target Variable: The column Diagnosis was used as the target variable, where 0 represents "No Parkinson’s" and 1 represents "Parkinson’s diagnosis."
+Target Variable: The column Diagnosis was used as the target variable, where 0 represents "No Parkinson’s" and 1 represents "Parkinson’s diagnosis."
   
  **Data Preprocessing**
   Before applying machine learning models, "I preprocessed the data to ensure it was clean and suitable for analysis:
 
-   Dropped Irrelevant Columns:
-      I removed columns like PatientID (unique identifier) and DoctorInCharge (text field containing confidential placeholder data) because they do not contribute to the prediction of Parkinson's diagnosis.
+Dropped Irrelevant Columns:
+  I removed columns like PatientID (unique identifier) and DoctorInCharge (text field containing confidential placeholder data) because they do not contribute to the prediction of Parkinson's diagnosis.
     
-    Label Encoding for Categorical Variables:
-     Columns such as Gender, Ethnicity, and EducationLevel contained categorical values. I used Label Encoding to convert these into numeric representations, making them compatible with the machine learning 
-     algorithms.
+Label Encoding for Categorical Variables:
+  Columns such as Gender, Ethnicity, and EducationLevel contained categorical values. I used Label Encoding to convert these into numeric representations, making them compatible with the machine learning 
+  algorithms.
      
-   Feature-Target Split:
-   In this I have  split the dataset into features (X) and the target variable (y). The feature matrix (X) contains all variables except Diagnosis, and the target vector (y) contains the Diagnosis column.
+Feature-Target Split:
+ In this I have  split the dataset into features (X) and the target variable (y). The feature matrix (X) contains all variables except Diagnosis, and the target vector (y) contains the Diagnosis column.
 
-    Data Standardization:
+Data Standardization:
     Since many of the features were on different scales (e.g., Age, Cholesterol levels, BMI), I have  used StandardScaler to standardize the dataset. This ensures that all features contribute equally to the model’s 
     predictions and avoids biases due to different scales.
     
