@@ -1,3 +1,8 @@
+
+
+
+
+![image](https://github.com/user-attachments/assets/7f293f97-9de5-4231-b7b5-47cbefc7635e)
 # Parkinson's-Disease-Prediction
 In this project, we focused on Parkinson's Disease Prediction using a dataset that contains various medical and demographic features for patients. The goal was to predict whether a patient is diagnosed with Parkinson's disease (binary classification: 0 for no, 1 for yes). Below is a detailed step-by-step explanation of what I have done:
 
